@@ -50,3 +50,14 @@ variable "database_subnet_cidr" {
 
 variable "database_subnet_names" {
 }
+
+variable "public_route_table_tags" {
+  default = {} # this means tags is optional
+}
+variable "private_route_table_tags" {
+  default = {} # this means tags is optional
+}
+
+variable "database_route_table_tags" {
+  default = {} # this means tags is optional
+}
